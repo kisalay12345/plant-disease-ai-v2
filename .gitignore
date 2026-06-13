@@ -1,0 +1,49 @@
+# ----------------------------
+# Python cache and temp files
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pycache/
+*.Python
+
+# ----------------------------
+# Virtual environment
+# ----------------------------
+.venv/
+venv/
+
+# ----------------------------
+# System files
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------
+# IDE / Editor files
+# ----------------------------
+.idea/
+.vscode/
+
+# ----------------------------
+# Large trained models
+# ----------------------------
+trained_model/plant_disease_prediction_model.h5
+*.h5
+*.hdf5
+
+# ----------------------------
+# Streamlit / app assets you don't want to track
+# ----------------------------
+# (If you want to track some assets, keep them outside this section)
+assets/temp/
+*.log
+
+# ----------------------------
+# Other unwanted files
+# ----------------------------
+*.sqlite3
+*.db
+*.csv  # Only if you generate prediction CSV files locally
